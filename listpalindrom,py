@@ -1,0 +1,9 @@
+list1 = [1,2,3,1]
+
+copylist=list1.copy()
+copylist1=list1.reverse()
+
+if(copylist==list1):
+    print("palindrom")
+else:
+    print("not paliindrom")
